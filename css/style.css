@@ -1,0 +1,322 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+}
+
+html {
+  height: 101%;
+}
+
+/* always display scrollbars */
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+input {
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  font-family: Styrene A Web, sans-serif;
+  max-width: 1256px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  margin-top: 71px;
+  margin-left: 17%;
+  margin-bottom: 89px;
+}
+
+.container .program {
+  width: 100%;
+  margin-bottom: 68px;
+}
+
+.container .program .button {
+  display: none;
+}
+
+.container .program .button .btn {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .program .button .btn.active {
+  background-color: red;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .program .button div {
+  padding: 13px 40px;
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .program .button i {
+  font-size: 35px;
+  color: #d9d9d9;
+  display: block;
+  margin-right: 27px;
+  margin-left: 24px;
+}
+
+.container .program .button p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.container .program__title {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 120%;
+  margin-bottom: 90px;
+}
+
+.container .program__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .program__content section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .program__content section .parametrs {
+  width: 373px;
+  margin-left: 85px;
+}
+
+.container .program__content section hr {
+  border: none;
+  background-color: #ff3535;
+  height: 2px;
+  margin-top: -39px;
+}
+
+.container .program__content p {
+  margin-top: 25px;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.container ul > li {
+  color: #ff3535;
+  margin-bottom: 10px;
+  margin-left: 17px;
+}
+
+.container ul > li span {
+  color: black;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 171px;
+}
+
+.container .footer .square {
+  padding: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 49%;
+  height: 293px;
+  background-color: black;
+  color: white;
+}
+
+.container .footer .square h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  margin-bottom: 25px;
+}
+
+.container .footer .square span {
+  color: white;
+}
+
+.container .footer .square.red {
+  background-color: red;
+}
+
+.container .footer .square.red div {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.container .empty {
+  width: 10px;
+  height: 10px;
+}
